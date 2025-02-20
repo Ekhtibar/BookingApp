@@ -1,0 +1,18 @@
+.heroInfoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.heroInfoItem__title{
+    font-size: 18px;
+    color: #fff;
+}
+
+.heroInfoItem__number{
+    margin-left: 64px;
+    font-size: 36px;
+    color: #fff;
+}

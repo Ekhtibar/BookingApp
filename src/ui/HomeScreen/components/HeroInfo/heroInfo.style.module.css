@@ -1,0 +1,9 @@
+.heroInfo{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 28px;
+    user-select: none;
+}

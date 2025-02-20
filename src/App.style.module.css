@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  background: #0D0D0D;
+}
+
+.topBar {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 28px;
+  user-select: none;
+}
+
+.topBat__item {
+  padding: 5px 28px;
+  background: #191919;
+  border-radius: 10px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 200;
+  color: #F2F2F2;
+  cursor: pointer;
+}
+
+.puh_num{
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 99px;
+  background: #4EA8DE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
