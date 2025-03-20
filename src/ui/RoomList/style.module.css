@@ -1,0 +1,91 @@
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 17px;
+    color: #fff;
+}
+
+.roomList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+.roomListItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1{
+    display: block;
+}
+
+.col2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.roomImage{
+    width: 185px;
+    height: auto;
+}
+
+.roomListItem{
+    gap: 10px;
+    background: #191919;
+    padding: 17px;
+    border-radius: 20px;
+}
+
+.roomListItem__category{
+    padding: 2px 5px;
+    background: #76E258;
+    border-radius: 99px;
+    font-size: 12px;
+}
+
+.roomList {
+    padding-bottom: 25px;
+    max-height: 440px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.roomList::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.roomList::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 999px;
+}
+
+.roomList::-webkit-scrollbar-thumb:hover {
+    background: #454545;
+}
+
+.bookingItem__editBn,
+.bookingItem__delBtn{
+    padding: 10px 20px;
+    border: none;
+    background: #262626;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.bookingItem__delBtn:hover{
+    background: red;
+}
+
+.bookingItem__editBn:hover{
+    background: #4EA8DE;
+}

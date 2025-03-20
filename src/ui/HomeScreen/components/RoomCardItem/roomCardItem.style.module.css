@@ -1,0 +1,96 @@
+.roomCardItem{
+    background: #191919;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.roomCardItem__top{
+    display: flex;
+    gap: 5px;
+}
+
+.roomCardItem__top__img{
+    width: 100px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.roomCardItem__top__info{
+    display: block;
+}
+
+.roomCardItem__top__info__title_category{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.roomCardItem__top__info__title{
+    font-size: 15px;
+    color: #fff;
+}
+
+.roomCardItem__top__info__category{
+    padding: 2px 5px;
+    background: #76E258;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.roomCardItem__top__info__description {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.roomCardItem__top__info__moreInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.roomCardItem__top__info__moreInfo__item{
+    font-size: 13px;
+    padding: 2px 8px;
+    background: #333333;
+    border-radius: 99px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.roomCardItem__price{
+    padding: 7px 0px;
+    border: 1px solid #4C4C4C;
+    background: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 99px;
+    margin-top: 16px;
+}
+
+.roomCardItem__bookingBtn{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 0px;
+    background: #4EA8DE;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 99px;
+    margin-top: 10px;
+    cursor: pointer;
+}
